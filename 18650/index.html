@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+       
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+
+</head>
+<body>
+   <div class="top" id="home"> <img class="tlogo" src="./download.png">
+    <form>
+        <img class="logo" src="./Logo_Twitter.png" alt="">
+        <img class="logo1" src="./vecteezy_instagram-logo-png-instagram-logo-transparent-png_23986555.png" alt="">
+        <input class="search" type="text" placeholder="What you Looking For??" name="search" ><div class="searchicon"></div>
+       
+      </form>
+   </div>
+   
+    <nav class="navbar" >
+           <a href="#home">HOME</a>
+        <a href="#home">ABOUT US</a>
+        <a href="#home">EDUCATION RESOURCE</a>
+            <a href="#home">WOMEN IN ENERGY</a>
+            <a href="#home">PROGRAM  PROFILES</a>
+            <a href="#home">EVENT</a>
+    </nav>
+<div class="image1">
+<h1>CREATE Energy Center</h1>
+<p>Working to Advance Energy Technology Educational Program</p>
+<button class="view">View Program ></button>
+</div>
+
+
+<div class="page2">
+    <p class="aboutus">About Us</p>
+    <p class="aboutus1">Fullfilling the demand for skilled professional in <br> the energy field</p>
+    <p class="aboutus2">The energy industry has a large rapid grown need for a skill, tech, technical workforce, and this present a current future challenge for 2 year college community</p>
+    <br><p class="aboutus3">Our organization focus on addressing the need of air facility and program qualified while building the capacity for the US industry complete.</p>
+    <button class="keepreading">Keep Reading > </button>
+<div class="picture2"></div>    
+</div>
+
+<div class="page3">
+  <p class="goal"> CREATE'S GOAL 
+    <p class="goal1">Create's goal is to advance the energy field by champion energy education program</p>
+  </p>
+    
+        <p class="achive">This is Achived Through:</p>
+        <a href="#home" class="link1"><img class="check" src="./check.png" alt=""> Facility Workshop</a>
+        <a href="#home" class="link2"><img class="check" src="./check.png" alt=""> Program & Curiculum <br>Development</a>
+        <a href="#home" class="link3"><img class="check" src="./check.png" alt=""> Instructure Material</a>
+        <a href="#home" class="link4"><img class="check" src="./check.png" alt=""> Industry Partnership</a>
+        <a href="#home" class="link5"><img class="check" src="./check.png" alt=""> Energy Career <br>Resources</a>
+
+
+</div>
+
+<div class="page4">
+<p class="p4t1">EDUCATOR RESOURCE</p>
+<p class="p4t2">Resource of teaching clean energy at the community college or high school level</p>
+<p class="p4t3">Our Renewable Energy lesson are designed for community collage,technical collage,and high school use.</p>
+<div class="container">
+  <img class="i1" src="./1.jpg" alt="">
+  <img class="i2" src="./2.jpg" alt="">
+  <img class="i3" src="./3.jpg" alt="">
+</div>
+ <p class="i1t">Teacher Resource</p>
+ <p class="i2t">Career Resource</p>
+ <p class="i3t">Solar Tool Kit</p>
+<div class="contain"></div>
+<p class="t1">Teachine material include instructor <br> guides,student handouts,</p>
+<p class="t2">Get information on careers in Clear & <br>Renewable to Energy Fields</p>
+<p class="t3">Access resoucres to instant solar at your <br>own educational instute</p>
+<button id="b1" class="learnmore">LEARN MORE ></button>
+<button id="b2" class="learnmore">LEARN MORE ></button>
+<button id="b3" class="learnmore">LEARN MORE ></button>
+</div>
+
+</div>
+<div class="pg4">
+
+  <div class="women">WOMEN IS ENERGY</div>
+  <div class="create">Create is Improving women-in-energy jobs</div>
+  <div class="longpara">Women represent nearly half of the US workforce yet they are less than one-third of the clean energy sector <br><br> Clean energy jobs are expected to grow 51% between 2019 till 2029 create is improving women and energy jobs by development tool for facilities to create women into energy program at your schools <br><br>Click below to learn more about creates women in energy initiative</div>
+  <button class="more">LEARN MORE ></button>
+  <div class="imgg"></div>
+
+</div>
+
+
+
+
+</body>
+</html>
